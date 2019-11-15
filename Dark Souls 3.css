@@ -1,0 +1,207 @@
+body{
+	font-family: Arial , sans-serif;
+padding:0;
+margin: 0; 
+color: #fff;
+}
+
+*{
+    box-sizing:border-box;
+}
+
+div{
+box-sizing: border-box;	
+}
+
+.clearfix:after{
+content:''; 
+display: table;
+width:100%;
+clear: both;  
+}
+
+header{
+background: url(img/dark-souls-3-hd-game.jpg) no-repeat center top / cover;
+height:1000px;
+}
+
+nav{ 
+	float: right;
+    margin-top:50px;
+ }
+
+.container{
+	display: block;
+	width: 930px;
+    margin: 0 auto;
+}
+
+.logo{
+	width: 200px;
+	margin-top:10px;
+	float:left;
+}
+
+
+.menu{
+	padding:0;
+	margin: 0; 
+	display: block;
+}
+
+.menu li{
+	float:left;
+	display: block;
+	margin-right: 41px;
+	font-size: 14px 
+}
+
+.menu a {color:#BEC4B9; 
+	text-decoration: none;
+    text-transform: uppercase;
+	 
+}
+
+.titels__first{
+ 	font-size:40px;  
+	text-transform: uppercase;
+ 	text-align: center;
+ 	margin-top: 80px ;
+    left:
+	 }
+header h1{
+	font-size:75px;  
+	text-transform: uppercase;
+ 	text-align: center;
+ 	margin: 15;
+		}
+
+.button{
+background:#C3A241;
+color: #000000;
+border-radius: 100px;	
+display: block;
+width: 240px; 
+padding:20px 0;
+margin: 0 auto;
+text-decoration: none;
+ text-align: center;
+ text-transform: uppercase;
+ font-weight: bold;
+ font-size: 18px;
+ margin-top: 50px;
+ margin-bottom: 160px;
+}
+
+.title {
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+    padding-top: 115px; 
+}
+
+.title h2 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.title p {
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.services {
+    margin-top: 50px;
+}
+
+.services_item {
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+    width: 270px;
+    float: left;
+    text-align: center;
+}
+
+.services_item img{
+	width: 200px;
+}
+
+.services_item h3 {
+	color: #fff;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.services_item p {
+    font-size: 14px;
+    line-height: 1.55em;
+}
+
+.services_item:last-child {
+    float: right;
+}
+
+.services_item:nth-child(2) {
+    margin-left: 55px;
+}
+
+#Services {
+    padding-bottom: 120px;
+    background:url(img/Colektion-copia_fon4.png)no-repeat center top / cover; 
+}
+
+#fon_content{
+	background: url(img/фон1.jpg)no-repeat center top / cover;
+}
+
+.title h2{
+	color: #9A1F1F;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	padding-bottom: 40px;  	
+ }
+
+.text {
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	padding: 10px 20px 10px 20px;
+    background: #7C7C7E;
+    opacity: 0.8;
+    border: #503511 solid 2px;
+    border-radius: 50px;
+}
+
+.end{
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	background: #111111 ;
+	padding-bottom: 90px;
+	padding-top: 90px;
+	text-align: center;
+}
+
+.img img{ width:100px;
+	margin:20px;
+	padding:10px; 
+
+}
+
+.a a{
+	color:#FF0008 ;
+
+}
+
+.img{
+	margin-top: 100px;
+	width: 100px; 
+border: red solid 2px; 
+	float:left; 
+}
+
+.a{
+	margin-top: 100px;
+	line-height: 10em;
+	width: 100px; 
+border: red solid 2px;
+	margin-left:100px;
+	float: right;    
+}
