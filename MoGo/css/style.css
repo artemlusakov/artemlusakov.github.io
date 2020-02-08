@@ -1,0 +1,214 @@
+* {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+	font-family: 'monospace', sans-serif;
+	font-size: 15px;
+	line-height: 1.6;
+	color: #333;
+}
+
+header {
+	padding-top: 30px;
+	width: 100%;
+	height: 100VH;
+	background: linear-gradient(-45deg, #E78283, #F0D68A);
+	background-image: url(img/Layer\ 15.png) no-repeat center top / cover;
+}
+
+.logo {
+	font-size: 30px;
+	font-weight: 700;
+	color: aliceblue;
+}
+
+/*меню панэль навигации*/
+
+.all_menu {
+	display: flex;
+	justify-content: space-around;
+}
+
+nav {
+	font-size: 14px;
+	text-transform: uppercase;
+	padding-top: 10px;
+}
+
+.nav_link {
+	margin: 010px;
+	color: #FFF;
+	text-decoration: none;
+}
+
+.nav_link:hover {
+	border-radius: 10px;
+	color: rgb(255, 191, 0);
+	border: 2px solid rgb(255, 191, 0);
+	padding: 7px;
+	margin-top: -7px;
+	margin-left: -7px;
+}
+
+.img_menu:hover {
+	border: 2px solid rgb(#FFF);
+}
+
+.Creative_Template {
+	font-family: 'Kaushan Script', cursive;
+	font-size: 70px;
+	display: flex;
+	justify-content: center;
+	margin-top: 4%;
+	color: rgb(255, 255, 255);
+}
+
+.mogo {
+	font-family: 'Montserrat Subrayada', sans-serif;
+	font-size: 150px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 5%;
+
+	color: rgb(255, 255, 255);
+	line-height: 0.5;
+
+}
+
+.to_mogo {
+	font-family: 'Montserrat Subrayada', sans-serif;
+	font-size: 150px;
+	margin-top: 5%;
+	color: rgb(255, 255, 255);
+	line-height: 0.2;
+}
+
+.baton {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 7%;
+	font-family: 'Montserrat Subrayada', sans-serif;
+}
+
+button {
+	padding: 20px 40px;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 20px;
+	border-radius: 20px;
+	background-color: #ECB486;
+	border: 4px solid #E78582;
+	transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0);
+	transition: 3s;
+
+}
+
+button a {
+	margin: 20px;
+	color: #FFF;
+	text-decoration: none;
+}
+
+section {
+	padding-top: 30px;
+	width: 100%;
+	height: 62.5em;
+}
+
+.all_text_what {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.What_we_do {
+	font-size: 24px;
+	font-family: 'Kaushan Script', cursive;
+	color: rgb(51, 51, 51);
+	margin-top: 80px;
+}
+
+.Story_about_us {
+	font-size: 30px;
+	font-family: "Montserrat";
+	color: rgb(51, 51, 51);
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-top: 10px;
+}
+
+
+.lain_red {
+	border-top: 5px solid #F38181;
+	border-radius: 20px;
+	width: 7.5em;
+	margin-top: 10px;
+}
+
+.text_loren {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	font-family: 'Roboto'serif;
+	color: #656565;
+	line-height: 0.9;
+	margin-top: 2.5em;
+}
+
+.ut_enim {
+	font-family: 'Roboto'serif;
+	color: #656565;
+}
+
+.img_section {
+	display: flex;
+	flex-direction: initial;
+	justify-content: center;
+	align-items: center;
+	margin-top: 5%;
+}
+
+.img_sloi {
+	width: 31em;
+}
+
+.soli1 {
+	align-items: center;
+	background: url(img/Layer44.png) no-repeat;
+	height: 21em;
+	margin: 20px;
+}
+
+.soli2 {
+	background: url(img/Layer41.png)no-repeat;
+	height: 21em;
+	margin: 20px;
+}
+
+.soli3 {
+	background: url(img/Layer39.png)no-repeat;
+	height: 21em;
+	margin: 20px;
+}
+
+.TextLogo {
+	font-size: 30px;
+	font-family: "Myriad Pro";
+	color: rgb(51, 51, 51);
+	text-transform: uppercase;
+	line-height: 1.2;
+	text-align: center;
+}
+
+.TextLogo p {
+	font-size: 24px;
+	font-family: "Myriad Pro";
+	color: rgb(51, 51, 51);
+	line-height: 1.2;
+}
